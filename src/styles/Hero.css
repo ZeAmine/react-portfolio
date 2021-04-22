@@ -18,7 +18,7 @@
 }
 .hero-title h1 {
   font-family: var(--font-2);
-  font-size: 12rem;
+  font-size: 16rem;
   font-weight: 400;
   letter-spacing: -0.04em;
   line-height: 1em;
@@ -29,7 +29,6 @@
 }
 .hero-title.title-3 h1 {
   margin-left: auto;
-  margin-right: auto;
 }
 
 .hero-subtitle {

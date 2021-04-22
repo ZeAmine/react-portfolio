@@ -17,8 +17,8 @@
 }
 
 .header-logo svg {
-  width: 3em;
-  cursor: pointer;
+  width: 4em;
+  cursor: default;
 }
 .header-logo svg path {
   fill: var(--clr-primary-1);
