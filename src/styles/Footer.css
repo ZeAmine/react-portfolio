@@ -1,0 +1,49 @@
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 16vh;
+}
+.footer-credit {
+  display: flex;
+  align-items: center;
+}
+.footer-credit svg {
+  width: 2em;
+  height: 2em;
+  margin-right: 1em;
+}
+.footer-credit h4 {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: var(--clr-primary-1);
+}
+
+.footer-scroll {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  cursor: pointer;
+}
+.footer-scroll span {
+  font-family: var(--font-1);
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: var(--clr-primary-1);
+}
+.footer-scroll svg {
+  margin-left: 1em;
+  transform: rotate(-90deg);
+  transition: var(--transition);
+}
+.footer-scroll svg path {
+  fill: var(--clr-primary-1);
+  transition: var(--transition);
+}
+
+.footer-scroll:hover span {
+  color: var(--clr-primary-2);
+}
+.footer-scroll:hover svg path {
+  fill: var(--clr-primary-2);
+}

@@ -1,0 +1,86 @@
+.project {
+  display: flex;
+  margin-top: 10vh;
+}
+
+.project-img {
+  background-color: red;
+  width: 65%;
+  height: 50vh;
+  cursor: pointer;
+}
+.project-img img {
+  width: 100%;
+}
+
+.project-title {
+  font-family: var(--font-2);
+  font-size: 8rem;
+  font-weight: 400;
+  color: var(--clr-primary-1);
+  letter-spacing: -0.02em;
+  transform: translateX(-1.8em);
+  margin-bottom: 0.15em;
+  white-space: nowrap;
+}
+
+.project-info {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  min-width: 450px;
+  z-index: 10;
+}
+.project-info-inner {
+  margin-left: 3vw;
+  margin-top: 1.5vh;
+}
+
+.project-date {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: var(--clr-primary-1);
+}
+.project-date span {
+  font-weight: 500;
+  margin-right: 2em;
+  opacity: 0.5;
+}
+
+.project-btn {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 12em;
+}
+.project-btn svg circle {
+  stroke: var(--clr-primary-1);
+  transition: var(--transition);
+}
+.project-btn svg path {
+  fill: var(--clr-primary-1);
+  transition: var(--transition);
+}
+.project-btn p {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: var(--clr-primary-1);
+  margin-left: 1.6em;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.project-btn:hover p {
+  color: var(--clr-primary-2);
+}
+.project-btn:hover svg path {
+  fill: var(--clr-primary-2);
+  transform: translateX(0.7em);
+}
+.project-btn:hover svg circle {
+  stroke: var(--clr-primary-2);
+}
+.project-btn:hover p:after {
+  width: 100%;
+  left: 0;
+}
