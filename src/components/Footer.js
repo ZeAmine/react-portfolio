@@ -2,13 +2,20 @@ import React from "react";
 import "../styles/Footer.css";
 
 const Footer = () => {
+  const scrollBack = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <footer className="footer">
       <div className="footer-wrap container">
         <div className="footer-credit">
           <h4>©2021 – AMINE ZEGMOU</h4>
         </div>
-        <button className="footer-scroll hover">
+        <button className="footer-scroll hover" onClick={scrollBack}>
           <span>RETOUR</span>
           <svg
             width="22"

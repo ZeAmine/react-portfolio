@@ -13,6 +13,20 @@ const Navbar = () => {
     }
   }, [theme]);
 
+  const scrollProject = () => {
+    window.scrollTo({
+      top: 1350,
+      behavior: "smooth",
+    });
+  };
+
+  const scrollContact = () => {
+    window.scrollTo({
+      top: 3550,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <header className="header">
       <nav className="header-wrap container">
@@ -36,10 +50,10 @@ const Navbar = () => {
           </div>
         </div>
         <ul className="header-list">
-          <li className="header-item">
+          <li className="header-item" onClick={scrollProject}>
             <p className="hover">PROJETS</p>
           </li>
-          <li className="header-item">
+          <li className="header-item" onClick={scrollContact}>
             <p className="hover">CONTACT</p>
           </li>
           <li className="header-item">

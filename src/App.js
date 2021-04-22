@@ -14,5 +14,3 @@ export default App;
 
 // TODO
 // - changer la typo
-// - mode sombre
-// - back to home
