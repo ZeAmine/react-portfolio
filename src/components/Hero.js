@@ -12,12 +12,13 @@ const Hero = () => {
           {/*<div className="hero-title-wrap">*/}
           {/*  <span>HETIC 2021</span>*/}
           {/*</div>*/}
-          <h1>
-            DÉVELOPPEUR <br /> FRONT-END
-          </h1>
+          <h1>DÉVELOPPEUR</h1>
         </div>
         <div className="hero-title title-3">
-          <h1>ZEGMOU</h1>
+          <h1>
+            FRONT-END
+            <br /> ZEGMOU
+          </h1>
         </div>
       </div>
     </section>
